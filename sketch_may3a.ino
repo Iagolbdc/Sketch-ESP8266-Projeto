@@ -5,7 +5,7 @@
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 
-#define led 2
+#define led 2 //LED_BUILTIN
 
 const char* ssid = "Rede01";
 const char* password = "12345678";
