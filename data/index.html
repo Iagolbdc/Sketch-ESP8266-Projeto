@@ -15,19 +15,25 @@
         </div>
         <div class="componentes">
             <p>Ligar e desligar Led com ESP8266 por wi-fi</p>
-            <div class="container-botao">
-                <p>Automatico LDR</p>
-                <label class="switch">
-                    <input type="checkbox" id="toggle-ldr">
-                    <span class="slider round"></span>
-                </label>
+            <div class="container-input">
+                <label for="ip">Endereço IP:</label>
+                <input id="ip" type="text">
             </div>
-            <div class="container-botao">
-                <p>Liga/Desliga</p>
-                <label class="switch">
-                    <input type="checkbox" id="toggle-manual">
-                    <span class="slider round"></span>
-                </label>
+            <div class="botoes">
+                <div class="container-botao">
+                    <p>LDR</p>
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-ldr">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="container-botao">
+                    <p>Liga/Desliga</p>
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-manual">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
             </div>
         </div>
     </div>
